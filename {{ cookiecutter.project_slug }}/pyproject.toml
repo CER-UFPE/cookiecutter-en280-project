@@ -1,0 +1,33 @@
+[project]
+name = "{{ cookiecutter.project_slug }}"
+version = "0.0.0"
+description = "{{ cookiecutter.description }}"
+readme = "README.md"
+authors = [
+    { name = "{{ cookiecutter.dev_name }}", email = "{{ cookiecutter.dev_mail }}" },
+]
+requires-python = ">=3.13"
+dependencies = []
+
+[project.scripts]
+cer-qa-project-template = "{{ cookiecutter.project_slug }}:main"
+
+[build-system]
+requires = ["uv_build>=0.9.5,<0.10.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "commitizen>=4.9.1",
+    "ipykernel>=7.1.0",
+    "jupyter-ruff>=0.3.0",
+    "ruff>=0.14.2",
+]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+tag_format = "$version"
+version_scheme = "semver"
+version_provider = "uv"
+update_changelog_on_bump = true
+major_version_zero = true

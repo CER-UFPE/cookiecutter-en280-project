@@ -1,0 +1,11 @@
+id,nome,categoria,preco,estoque,descricao
+1,Notebook Dell,Eletrônicos,3500.00,15,Notebook Dell Inspiron 15 com 8GB RAM
+2,Mouse Logitech,Periféricos,89.90,50,Mouse sem fio Logitech M280
+3,Teclado Mecânico,Periféricos,450.00,25,Teclado mecânico RGB gamer
+4,Monitor LG 24",Eletrônicos,899.00,10,Monitor LG 24" Full HD IPS
+5,Cadeira Gamer,Móveis,1200.00,8,Cadeira gamer ergonômica com apoio lombar
+6,Webcam HD,Periféricos,250.00,30,Webcam Full HD 1080p com microfone
+7,Headset Gamer,Áudio,320.00,20,Headset gamer 7.1 surround
+8,SSD 480GB,Armazenamento,380.00,40,SSD SATA 480GB leitura 550MB/s
+9,Mousepad Grande,Acessórios,45.00,100,Mousepad gamer 80x30cm
+10,Hub USB 3.0,Acessórios,75.00,35,Hub USB 3.0 com 4 portas
